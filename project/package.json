@@ -1,0 +1,24 @@
+{
+  "name": "asincronismo",
+  "version": "1.0.0",
+  "description": "I learn async in JS",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callbacks/index.js",
+    "callback:challenge": "node src/callbacks/challenge.js",
+    "promise": "node src/promise/promise.js",
+    "promise:challenge": "node src/promise/challenge.js",
+    "async": "node src/async-await/exampleasync.js",
+    "async:challenge": "node src/async-await/challenge.js"
+  },
+  "keywords": [
+    "CallBacks",
+    "Promise",
+    "Async"
+  ],
+  "author": "Christian Sánchez",
+  "license": "MIT",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
